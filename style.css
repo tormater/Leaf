@@ -1,0 +1,145 @@
+@import url("../Aurora/style.css");
+
+/* Base Styles. */
+:root {  
+  --button-g-bottom: #b5c4c6;
+  --input-border: #8f9996;
+  --input-border-bold: #8f9996;
+}
+
+body {
+  background-color: var(--bg-tertiary);
+  background-image: url("bg.png");
+}
+
+#forumheader {
+  background: linear-gradient(#fff,#b5c4c6);
+  border: 1px solid #8f9996;
+}
+
+#menu {
+  background: linear-gradient(#94a4a1,#475353);
+  border: 1px solid #6a7575;
+}
+
+.item {
+  text-shadow: 0 1px 1px #394443;
+}
+
+
+#searchbox {
+  border-right-color: #6a7575;
+}
+.searchbutton {
+  background: linear-gradient(#94a4a1,#475353);
+  border-color: #6a7575;
+  text-shadow: 0 1px 1px #394443;
+}
+.threadbutton {
+  background: linear-gradient(#94a4a1,#475353);
+  border-color: #6a7575;
+  text-shadow: 0 1px 1px #394443;
+}
+
+.forumtitle {
+  color: #000;
+  font-weight: lighter;
+  text-shadow: 0px 1px 2px #fff;
+}
+
+.pageButton {
+  box-shadow: none;
+}
+.pageButtonDisabled {
+  box-shadow: none;
+  filter: brightness(90%);
+}
+
+th {
+  background: linear-gradient(#fff,#b5c4c6);
+  color: #000;
+  text-shadow: 0px 1px #fff;
+  font-weight: lighter;
+  border-bottom: 1px solid #8f9996;
+}
+
+table {
+  border: 1px solid #8f9996;
+}
+
+.sticky, .locked, .draft, .pinned {
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+.thread, .usertop, .userextra, .settingscolor {
+  background-image: linear-gradient(#ffffff8d, #00000012);
+}
+
+.userlist-top {
+  background-image: linear-gradient(#ffffffad, #ffffff26);
+}
+
+[postcolor="1"] {
+    background-color: #00a7ae;
+}
+
+[postcolor="2"] {
+    background-color: #78db00;
+}
+
+[postcolor="3"] {
+    background-color: #ffd42b;
+}
+
+[postcolor="4"] {
+    background-color: rgb(255, 41, 111);
+}
+
+[postcolor="5"] {
+    background-color: #ff5ec8;
+}
+
+[postcolor="6"] {
+    background-color: rgb(126, 49, 219);
+}
+
+[postcolor="7"] {
+    background-color: rgb(255, 131, 0);
+}
+
+[postcolor="8"] {
+    background-color: rgb(53, 123, 255);
+}
+
+[postcolor="9"] {
+    background-color: #c4c4ff;
+}
+
+[postcolor="10"] {
+    background-color: rgb(177, 193, 173);
+}
+
+[postcolor="11"] {
+    background-color: #ffa600;
+}
+
+[postcolor="12"] {
+    background-color: rgb(169, 217, 0);
+}
+
+[postcolor="13"] {
+    background-color: rgb(0, 232, 91);
+}
+
+[postcolor="14"] {
+    background-color: rgb(87, 255, 200);
+}
+
+[postcolor="15"] {
+    background-color: #7a7ebd;
+}
+
+[postcolor="16"] {
+    background-color: #f0ffe1;
+}
